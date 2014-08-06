@@ -22,6 +22,7 @@
 		B5855B631991E7F500BAFB94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B5855B611991E7F500BAFB94 /* InfoPlist.strings */; };
 		B5855B651991E7F500BAFB94 /* DropitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5855B641991E7F500BAFB94 /* DropitTests.m */; };
 		B5855B701991ECE400BAFB94 /* DropitBehavior.m in Sources */ = {isa = PBXBuildFile; fileRef = B5855B6F1991ECE400BAFB94 /* DropitBehavior.m */; };
+		B5855B73199208D700BAFB94 /* BezierPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = B5855B72199208D700BAFB94 /* BezierPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		B5855B641991E7F500BAFB94 /* DropitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DropitTests.m; sourceTree = "<group>"; };
 		B5855B6E1991ECE400BAFB94 /* DropitBehavior.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropitBehavior.h; sourceTree = "<group>"; };
 		B5855B6F1991ECE400BAFB94 /* DropitBehavior.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropitBehavior.m; sourceTree = "<group>"; };
+		B5855B71199208D700BAFB94 /* BezierPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierPathView.h; sourceTree = "<group>"; };
+		B5855B72199208D700BAFB94 /* BezierPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				B5855B4B1991E7F500BAFB94 /* Main.storyboard */,
 				B5855B4E1991E7F500BAFB94 /* DropitViewController.h */,
 				B5855B4F1991E7F500BAFB94 /* DropitViewController.m */,
+				B5855B71199208D700BAFB94 /* BezierPathView.h */,
+				B5855B72199208D700BAFB94 /* BezierPathView.m */,
 				B5855B6E1991ECE400BAFB94 /* DropitBehavior.h */,
 				B5855B6F1991ECE400BAFB94 /* DropitBehavior.m */,
 				B5855B511991E7F500BAFB94 /* Images.xcassets */,
@@ -257,6 +262,7 @@
 			files = (
 				B5855B501991E7F500BAFB94 /* DropitViewController.m in Sources */,
 				B5855B701991ECE400BAFB94 /* DropitBehavior.m in Sources */,
+				B5855B73199208D700BAFB94 /* BezierPathView.m in Sources */,
 				B5855B4A1991E7F500BAFB94 /* DropitAppDelegate.m in Sources */,
 				B5855B461991E7F500BAFB94 /* main.m in Sources */,
 			);
